@@ -52,4 +52,4 @@ inputs:
         Use this input to set the command that will be executed.
       is_expand: true
       is_required: true
-      value_options: ["generate"]
+      value_options: ["scaffold", "generate"]
