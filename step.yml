@@ -12,10 +12,10 @@ title: |-
 summary: |
   Run Tuist from Bitrise's CI environment
 description: |
-  Run Tuist from Bitrise's CI environment
-website: https://github.com/tuist/bitrise-step-tuist
-source_code_url: https://github.com/tuist/bitrise-step-tuist
-support_url: https://github.com/tuist/bitrise-step-tuist/issues
+  Updated version of Tuist from Bitrise's CI environment. It adds the commands to run tuist.
+website: https://github.com/Intros-at/bitrise-step-tuist
+source_code_url: https://github.com/Intros-at/bitrise-step-tuist
+support_url: https://github.com/Intros-at/bitrise-step-tuist/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -34,10 +34,10 @@ run_if: ""
 deps:
   brew:
     - name: git
-    - name: wget
+    - name: curl
   apt_get:
     - name: git
-    - name: wget
+    - name: curl
 
 toolkit:
   bash:
@@ -52,4 +52,4 @@ inputs:
         Use this input to set the command that will be executed.
       is_expand: true
       is_required: true
-      value_options: []
+      value_options: ["generate"]
