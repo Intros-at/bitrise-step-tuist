@@ -3,4 +3,4 @@ set -ex
 
 curl -Ls https://install.tuist.io | bash
 
-tuist $command
+$env_vars tuist $command $arguments $options
