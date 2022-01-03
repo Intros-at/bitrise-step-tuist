@@ -53,7 +53,6 @@ inputs:
       is_expand: true
       is_required: true
       value_options: ["scaffold", "generate"]
-  - command: Arguments
     opts:
       title: "Arguments" 
       summary: Provide the arguments for the tuist command.
