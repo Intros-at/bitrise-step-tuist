@@ -53,3 +53,12 @@ inputs:
       is_expand: true
       is_required: true
       value_options: ["scaffold", "generate"]
+  - command: Arguments
+    opts:
+      title: "Arguments" 
+      summary: Provide the arguments for the tuist command.
+      description: |
+        Add command arguments to specify optional behaviour.
+      is_expand: true
+      is_required: false
+      skip_if_empty: true
