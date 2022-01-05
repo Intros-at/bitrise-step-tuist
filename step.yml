@@ -44,14 +44,6 @@ toolkit:
     entry_file: step.sh
 
 inputs:
-  - env_vars:
-    opts:
-      title: "Environment variables"
-      summary: Add here the environment variables you want to pass to tuist
-      description: |
-        Customize the projects at generation time.
-      is_expand: false
-      is_required: false
   - command: The Tuist command to execute
     opts:
       title: "Command"
